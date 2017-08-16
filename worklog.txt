@@ -1,0 +1,30 @@
+https://github.com/thylinner/host  
+远程host地址
+
+resmain-> 正式域名测试环境, 对应244
+resmain5-> 正式域名测试环境5, 对应237
+test->测试域名测试环境,对应236/229
+yufa->预发环境,
+newtest->新测试环境,对应21
+最常用的是  resmain 
+
+App 如果想连接测试环境，可以连接我共享的WiFi： EverdeMacBook Pro， 
+密码：longzhu123     
+连接后，在手机网络设置里，HTTP代理改为：手动； 
+服务器地址写：192.168.1.207， 端口写 ： 8888
+
+测试QQ号，上午给测试要的，里面有很多龙币；
+账号：3149703949 
+密码：201314201314
+
+
+测试环境需要绑定域名
+10.200.150.3 test.event.longzhu.com
+访问地址
+http://test.event.longzhu.com/
+ 
+ 
+预发需要绑定域名
+115.231.96.148 sports.longzhu.com
+访问地址
+http://sports.longzhu.com/
