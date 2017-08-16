@@ -1,0 +1,38 @@
+nodejs测试服务器
+10.200.150.3
+root
+dvpVrF87sVsc24Qq
+目录：/home/noderoot/egg
+ 
+ 
+ 
+nodejs启动命令
+启动： EGG_SERVER_ENV=prod nohup node dispatch.js > logs/access.log 2> logs/error.log &
+查端口： ps -aux | grep dispatch.js
+杀端口：kill -s 9 8738
+ 
+ 
+Git  nodejs服务器端项目 frontend / longzhu-egg
+权限已开
+ 
+ 
+目前使用的分支是
+feature-h5
+ 
+node项目目录结构
+├── package.json
+├── app
+│   ├── router.js   (整个项目的路由层)
+│   ├── controller
+│   │  └── sport.js   (体育项目对应的controller)
+│   ├── service     (通用服务层)
+│   │   └── room.js  (房间页使用)
+│   │   └── view.js  (页面渲染使用)
+│   ├── view
+│   │   └── sport
+│   │   │   └── h5.tpl   (体育移动端模板)
+│   │   │   └── index.tpl   (pc体育首页)
+│   │   │   └── schedule.tpl  (pc体育赛程页)
+│   │   │   └── webview.tpl  (app中使用的体育内嵌页)
+│   │   │   └── topic (体育活动页目录)
+ 
