@@ -29,7 +29,3 @@ http://test.event.longzhu.com/
 115.231.96.148 sports.longzhu.com
 访问地址
 http://sports.longzhu.com/
-
-review board 
-www.coonotes.com
-
